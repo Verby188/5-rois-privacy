@@ -37,32 +37,59 @@
 <body>
   <div class="crown">👑</div>
   <h1>Politique de confidentialité<br/>5 Rois — Cinq Couronnes</h1>
-  <p class="date">Dernière mise à jour : 14 avril 2026</p>
+  <p class="date">Dernière mise à jour : 20 juin 2026</p>
 
-  <h2>1. Collecte de données</h2>
-  <p>Pour le mode multijoueur en ligne, l'application utilise Firebase (Google) pour gérer les salles de jeu en temps réel. Les données suivantes peuvent être temporairement stockées sur les serveurs Firebase :</p>
+  <h2>1. Compte joueur</h2>
+  <p>La création d'un compte est optionnelle. Si vous choisissez d'en créer un, les données suivantes sont collectées et conservées :</p>
   <ul>
-    <li>Le pseudonyme choisi pour la partie</li>
-    <li>Le code de salle et les scores de la partie en cours</li>
+    <li>Adresse email et mot de passe (via Firebase Authentication)</li>
+    <li>Pseudonyme choisi</li>
+    <li>Avatar sélectionné</li>
+    <li>Statistiques de jeu (victoires, parties jouées, score moyen) affichées dans le classement global</li>
+    <li>Liste d'amis et demandes d'amis</li>
+    <li>Code de parrainage et thèmes débloqués</li>
   </ul>
-  <p>Ces données sont supprimées automatiquement à la fin de chaque partie. Aucune donnée n'est conservée de manière permanente sur nos serveurs.</p>
+  <p>Vous pouvez jouer sans créer de compte via l'option « Continuer sans compte », auquel cas aucune de ces données n'est collectée.</p>
 
-  <h2>2. Données stockées localement</h2>
-  <p>L'application peut stocker localement sur votre appareil vos préférences (langue, pseudo) pour améliorer votre expérience. Ces données ne quittent jamais votre appareil.</p>
+  <h2>2. Mode multijoueur en ligne</h2>
+  <p>Pour le mode multijoueur, l'application utilise Firebase Realtime Database (Google) pour gérer les salles de jeu en temps réel. Les données suivantes sont temporairement stockées le temps de la partie :</p>
+  <ul>
+    <li>Le pseudonyme et l'avatar utilisés pour la partie</li>
+    <li>Le code de salle, l'état du jeu et les scores</li>
+  </ul>
+  <p>Ces données de salle sont automatiquement supprimées peu après la fin de chaque partie ou en cas d'inactivité prolongée.</p>
 
-  <h2>3. Services tiers — Firebase</h2>
-  <p>Le mode multijoueur utilise Firebase Realtime Database (Google LLC). En jouant en ligne, vous êtes soumis à la politique de confidentialité de Google : <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+  <h2>3. Notifications push</h2>
+  <p>Si vous autorisez les notifications, un jeton d'identification Firebase Cloud Messaging (FCM) est associé à votre compte afin de vous prévenir des invitations de partie et des demandes d'ami.</p>
 
-  <h2>4. Publicité</h2>
-  <p>L'application ne contient aucune publicité.</p>
+  <h2>4. Données stockées localement</h2>
+  <p>L'application stocke localement sur votre appareil certaines préférences (thème, langue, son, couleurs des cartes, session de jeu) pour améliorer votre expérience. Ces données restent sur votre appareil.</p>
 
-  <h2>5. Enfants</h2>
-  <p>Cette application est adaptée à tous les âges. Aucune donnée personnelle identifiable n'est collectée.</p>
+  <h2>5. Publicité — Google AdMob</h2>
+  <p>L'application affiche des publicités fournies par <strong>Google AdMob</strong> (bannières et publicités interstitielles) afin de financer son développement gratuit.</p>
+  <p>Dans le cadre de la diffusion et de la mesure publicitaires, Google peut traiter votre <strong>adresse IP</strong> ainsi que d'autres identifiants techniques, y compris via des technologies d'amélioration de la confidentialité (traitement sur l'appareil, environnements d'exécution sécurisés, calcul multipartite sécurisé), afin de fournir des solutions de mesure et de personnalisation publicitaire dans l'Espace économique européen, au Royaume-Uni et en Suisse.</p>
+  <p>Un formulaire de consentement (conforme au cadre TCF de l'IAB Europe) vous est présenté au premier lancement de l'application si vous résidez dans l'UE/EEE, au Royaume-Uni ou en Suisse, afin de recueillir votre consentement avant toute personnalisation publicitaire. Vous pouvez modifier ce choix à tout moment depuis les paramètres de l'application.</p>
+  <p>Pour en savoir plus sur le traitement des données par Google à des fins publicitaires : <a href="https://policies.google.com/technologies/ads" target="_blank">policies.google.com/technologies/ads</a></p>
 
-  <h2>6. Contact</h2>
-  <p>Pour toute question concernant cette politique : <a href="mailto:verby188@github.com">verby188@github.com</a></p>
+  <h2>6. Services tiers</h2>
+  <p>L'application utilise les services Google suivants, chacun soumis à la politique de confidentialité de Google (<a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>) :</p>
+  <ul>
+    <li><strong>Firebase Authentication</strong> — gestion des comptes joueurs</li>
+    <li><strong>Firebase Realtime Database</strong> — synchronisation des parties multijoueur</li>
+    <li><strong>Firebase Cloud Messaging</strong> — notifications push</li>
+    <li><strong>Google AdMob</strong> — affichage de publicités</li>
+  </ul>
 
-  <h2>7. Modifications</h2>
-  <p>Cette politique peut être mise à jour. Les modifications seront publiées sur cette page.</p>
+  <h2>7. Enfants</h2>
+  <p>Cette application est adaptée à tous les âges. Nous ne collectons pas sciemment de données auprès d'enfants au-delà de ce qui est nécessaire au fonctionnement du jeu (pseudonyme), et aucune publicité personnalisée n'est diffusée sans consentement préalable conforme à la réglementation applicable.</p>
+
+  <h2>8. Vos droits</h2>
+  <p>Vous pouvez à tout moment supprimer votre compte et les données associées en nous contactant à l'adresse ci-dessous. Vous pouvez également modifier votre pseudonyme, votre avatar ou retirer votre consentement publicitaire depuis l'application.</p>
+
+  <h2>9. Contact</h2>
+  <p>Pour toute question concernant cette politique : <a href="mailto:verbatim1889@gmail.com">verbatim1889@gmail.com</a></p>
+
+  <h2>10. Modifications</h2>
+  <p>Cette politique peut être mise à jour. Les modifications seront publiées sur cette page avec une nouvelle date de mise à jour.</p>
 </body>
 </html>
